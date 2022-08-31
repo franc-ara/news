@@ -57,8 +57,9 @@ The project consumes the API GNews
 
 For build the application you need
 
-| **JDK 11** |
-| **Maven 3** |
+**JDK 11**
+
+**Maven 3**
 
 ## Start the application localy
 
