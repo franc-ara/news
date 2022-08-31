@@ -55,7 +55,7 @@ public class InternationalNewsServiceImpl implements InternationalNewsService {
 						.getBody();
 				final DtoIntDataArticle dataArticle = gson.fromJson(responseApi, DtoIntDataArticle.class);
 				response.add(dataArticle);
-				TimeUnit.MILLISECONDS.sleep(500);
+				TimeUnit.SECONDS.sleep(1);
 			}
 
 		} catch (Exception e) {

@@ -53,3 +53,30 @@ The project consumes the API GNews
 | `list[].articles[].source.name` | `string` | **Optional**. Name site |
 | `list[].articles[].source.url` | `string` | **Optional**. Link to main site |
 
+## Getting started
+
+For build the application you need
+
+| **JDK 11** |
+| **Maven 3** |
+
+## Start the application localy
+
+For start the application use the command in command line:
+
+```
+	mvn spring-boot:run
+```
+the project use the default port 8080
+
+```
+	http://localhost:8080/
+```
+
+you can consume the services of the API Reference
+
+
+
+
+
+
